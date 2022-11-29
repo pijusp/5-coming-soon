@@ -2,20 +2,18 @@
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    transition: all 1s;
 }
 .container > .row {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px 0;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    background-color: pink;
-    transition: all 1s;
 }
 .container > .short-row {
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: yellow;
-    transition: all 1s;
 }
 .container > .row > .left {
     width: 50%;
