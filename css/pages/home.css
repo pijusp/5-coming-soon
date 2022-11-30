@@ -56,4 +56,19 @@ footer.container {
     color: var(--main-color);
 }
 .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fffc;
+}
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+.bottom > .trio {
+    display: flex;
+    gap: 20px;
+}
+.bottom a {
+    color: #fff;
 }
