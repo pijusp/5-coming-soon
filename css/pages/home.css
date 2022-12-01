@@ -72,3 +72,11 @@ footer.container {
 .bottom a {
     color: #fff;
 }
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 60px;
+    }
+    .bottom > .trio {
+        flex-direction: column;
+    }
+}
