@@ -26,6 +26,8 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/
 -   Responsive design
 -   CSS animation
 -   Form
+-   FontAwesome icons
+-   CSS units: vh, vw, vmin, vmax
 
 ## 🧰 Getting Started
 
