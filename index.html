@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="./css/components/progress-bar.css" />
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/form.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+
     <!-- pages -->
     <link rel="stylesheet" href="./css/pages/home.css" />
   </head>
@@ -126,19 +128,19 @@
           </p>
           <form action="/">
             <div class="cell-1">
-              <label for="">Name</label>
-              <input type="text">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
             </div>
             <div class="cell-1">
-              <label for="">Email</label>
-              <input type="email">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your email" required>
             </div>
             <div class="cell-2">
-              <label for="">Message</label>
-              <textarea name="" id=""></textarea>
+              <label for="message">Message</label>
+              <textarea id="msg" name="message"  placeholder="Your message" required></textarea>
             </div>
             <div class="cell-2">
-              <button>Send message</button>
+              <button class="btn">Send message</button>
             </div>
           </form>
         </div>
