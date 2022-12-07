@@ -42,7 +42,47 @@
 .section-description > a:hover {
   text-decoration: underline;
 }
+.subscribe {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  grid-template-areas:
+      "email"
+      "subscribe";
+}
 
+.subscribe div:nth-child(1) {
+  grid-area: email;
+}
+.subscribe div:nth-child(2) {
+  grid-area: subscribe;
+}
+
+.subscribe > div > input {
+  background-color: transparent;
+  border-color: #fffe;
+  color: #fff;
+}
+.subscribe input:focus {
+  outline-color: #fff;
+}
+
+.subscribe > div > input::placeholder {
+  color: #fff;
+}
+
+.subscribe .btn {
+  text-transform: capitalize;
+}
+
+.section-description > a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.section-description > a:hover {
+  text-decoration: underline;
+}
 footer.container {
   padding-top: 0;
 }
