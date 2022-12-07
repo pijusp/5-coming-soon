@@ -1,7 +1,8 @@
 .btn {
     background-color: var(--secondary-color);
     margin: 5px;
-    display: inline-block;    padding: 1em;
+    float: right;   
+    padding: 1em;
     color: #fff;
     font-size: 18px;
     line-height: 1em;
